@@ -1,0 +1,12 @@
+header {
+    background: url(img/estrelas.jpg);
+    width: 100%;
+    height: 420px;
+}
+
+.cabecalho {
+    color: white;
+    font-size: 30px;
+    padding: 350px 0 0 250px;
+}
+
