@@ -1,0 +1,9 @@
+form label, form input {
+    display: block;
+    text-align: center;
+}
+
+.input-padrao{
+    display: block;
+    
+}
