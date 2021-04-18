@@ -1,17 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>Contato</title>
 
-    <title>Contato</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="contato.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+	</head>
+	<body>
+        <header>
+			<img class="figura-camera" src="camera.jpg" alt="Camera iluminada">
+		</header>
 
-    <link rel="stylesheet" href="contato.css">
-    <link rel="stylesheet" href="reset.css">
-</head>
+    <main>
+        <form>
+			<h1 class="titulo-cabeçalho">Entre em contato com a gente!</h1>
+			<label for="nome">Nome:</label>
+			<input type="text" id="nome" class="input-padrao" required>
 
-<body>
-    
-</body>
+			<label for="whatsapp">WhatsApp:</label>
+			<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" class="input-padrao" required placeholder="email@dominio.com">
+			
+			<label for="mensagem">Escreva a sua mensagem:</label>
+			<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+			<label class="checkbox" > <input type="checkbox" checked>Gostaria de receber newsletters?</label>
+
+			<input type="submit" value="Inscrever" class="enviar">
+        </form>
+    </main>
+    <footer>
+		<h2><img class="oscardourado" src="oscar.png" alt="Trofeu do Oscar"></h2>
+		<p class="copyright">&copy; Copyright Oscar - 2021</p>
+    </footer>
+    </body>
 </html>
