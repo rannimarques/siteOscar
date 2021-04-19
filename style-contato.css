@@ -6,7 +6,7 @@ body{
 
 .figura-camera{
     width: 100%;
-    height:550px;
+    height:570px;
 }
 
 h1{
@@ -17,7 +17,8 @@ h1{
 
 .titulo-cabeçalho{
     font-family: 'Titillium Web', sans-serif;
-    font-size: 3em;
+    font-size: 40px;
+    font-style: italic;
     font-weight: bold;
     color: black;
     padding: 20px;
@@ -30,7 +31,7 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(#FFA500,black);
+    background: linear-gradient(#FFA500,black);
     padding:60px;
 }
 
@@ -68,7 +69,7 @@ form label {
 }
 
 footer {
-    background-image: url("estrelas.jpg");
+    background-image: url(img/estrelas2.jpg);
     background-size: contain;
     width: 100%;
     position: absolute;
